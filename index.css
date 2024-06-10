@@ -110,3 +110,43 @@ li {
   background-color: transparent;
   animation: vibrate-1 0.3s linear infinite both;
 }
+/* Add this to your existing CSS */
+
+.popover {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.popover-content {
+  padding: 20px;
+}
+
+.popover-content h2 {
+  margin-bottom: 10px;
+}
+
+.popover-content p {
+  margin-bottom: 20px;
+}
+
+.popover-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.timer {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 2em;
+}
